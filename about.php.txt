@@ -1,0 +1,352 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" type="image/png" href="../components/img/home/logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".././components/css/style.css">
+    <title>درباره ما</title>
+     <link rel="stylesheet" href=".././components/css/index.css">
+    <style>
+    nav {
+         background-color: transparent !important;
+    }
+          @font-face {
+font-family: lalezar;
+src: url(../components/font/Lalezar-Regular.ttf);
+}
+
+* {
+font-family: 'lalezar', Fallback, sans-serif;
+}
+        body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFD525 !important;
+    position:relative;
+    
+}
+.contain{
+    width: 100%;
+    height:500px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+    
+}
+.leftAx{
+    
+    height:50%;
+    text-align: center;
+    
+}
+.leftAx img{
+    width: 400px;
+}
+.rightAx img{
+    width: 600px;
+}
+.rightAx{
+    height:50%;
+    text-align: left;
+}
+@media only screen and (max-width:900px) {
+    .contain {
+        flex-flow: column nowrap;
+    }
+    .leftAx{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .leftAx img{
+        width: 300px;
+    }
+    .rightAx img{
+        width: 400px;
+    }
+}
+@media only screen and (min-width:1700px) {
+    .leftAx img{
+        width: 500px;
+    }
+    .rightAx img{
+        width: 700px;
+    }
+}
+
+.headOfPage{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.slideRow{
+   display: flex;
+   justify-content: space-around;
+    flex-direction: row-reverse;
+}
+@media only screen and (max-width:900px){
+    .slideRow{
+        justify-content: center;
+         
+     }
+     .headOfPage pre {
+         margin-top: 90px;
+     }
+}
+.slidenama{
+    
+    width: 300px;
+    height: 300px;
+}
+.headOfslide{
+    display: flex;
+}
+.headOfslide span{
+    color: white;
+    font-size: 30px;
+   float: right;
+    
+}
+.headOfslide{
+    font-size: 12px;
+}
+.slideImg {
+    background: url(../components/img/About/slide.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+#mySVG path{
+  stroke-dasharrasy:1000;
+  stroke-dashoffset:0;
+}
+
+    </style>
+    <link rel="stylesheet" href=".././components/css/styles.css">
+    <link rel="stylesheet" href=".././components/css/index.css">
+       
+</head>
+
+<body>
+<nav id="navbar" class="navbar">
+    <div class="logo">
+       
+    </div>
+
+    <div class="navAsly" id="mynavAsly">
+             
+
+  <a href="./catalog.php">کاتالوگ</a>
+  <a href="./contact.php">تماس با ما</a>
+  <a href="./about.php">درباره ما</a>
+   <div class="drapdawn">
+    <a class="drapbtnn">محصولات
+      <i>▿</i>
+    </a>
+
+    <div class="drapdawn-content">
+               <a href=".././products/page2.php">نی آشامیدنی</a>
+               <a href=".././products/page3.php">سفره یکبار مصرف</a>
+               <a href=".././products/page6.php">سلفون محافظ غذا </a>
+               <a href=".././products/page5.php">کیسه زباله</a>
+               <a href=".././products/page1.php">دستکش یکبار مصرف</a>   
+               <a href=".././products/page7.php">کیسه فریزر</a>
+               <a href=".././products/page4.php">فویل آلومینیوم</a>
+               <a href=".././products/page8.php"> دستکش خانگی و صنعتی گیلان</a>
+
+
+
+    </div>
+  </div> 
+  <a href="../index.php" class="activee" style="color:white">خانه 
+</a>
+  
+  <a style="font-size:49px;color:white;cursor:pointer" class="iconnav">&#9776;</a>
+</div>
+         
+
+</nav>
+<div class="responsiveMenu">
+        <div class="rescloze">X</div>
+        <div class="resMENU">
+            <a href="../index.php"><h1>خانه</h1></a>
+            <a href="./catalog.php"><h1>کاتالوگ</h1></a>
+            <a href="./about.php"><h1>درباره ما</h1></a>
+            <a href="./contact.php"><h1>تماس با ما</h1></a>
+
+        <h1 class="hh">محصولات <span>></span></h1>
+        
+        </div>
+<div class="rescontent">
+                 <a href=".././products/page2.php"><h3 style="color:#454951">نی آشامیدنی</h3></a>
+                 <a href=".././products/page3.php"><h3 style="color:#454951">سفره یکبار مصرف</h3></a>
+                 <a href=".././products/page6.php"><h3 style="color:#454951">سلفون محافظ غذا</h3></a>
+                 <a href=".././products/page5.php"><h3 style="color:#454951">کیسه زباله</h3></a>
+                 <a href=".././products/page1.php"><h3 style="color:#454951">دستکش یکبار مصرف</h3></a>
+                 <a href=".././products/page7.php"><h3 style="color:#454951">کیسه فریزر</h3></a>
+                 <a href=".././products/page4.php"><h3 style="color:#454951">فویل آلومینیوم</h3></a>
+                 <a href=".././products/page8.php"><h3 style="color:#454951">دستکش خانگی و صنعتی گیلان</h3></a>
+
+            </div>
+
+
+
+    </div>
+    
+    <svg id="mySVG">
+  <path fill="none" stroke="red" stroke-width="3" id="triangle" d="M 250 150 L 150 450 L 350 700 L 300 1050 L 450 1400 L 150 1650 L 350 1850 " width="500" height="2000"/>
+  Sorry, your browser does not support inline SVG.
+</svg>
+    
+    <div class="contain">
+        <div class="leftAx"><img src="../components/img/About/ladyAbout.png" alt=""></div>
+        <div class="rightAx"><img src="../components/img/About/matnAbout.png" alt=""></div>
+    </div>
+    <div class="headOfPage">
+        <pre style="color: white;">Internatonal & External
+ global Exhibition
+        </pre>
+        <h3 style="transform: translateY(-10px);">حضور در نمایشگاه های خارجی و بین المللی</h3>
+    </div>
+
+
+    <div class="whatShouldComeUp">
+    <div class="slideRow">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2014</span>حضور در نهمین نمایشگاه ایران پلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow" style="flex-direction: row;">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2016</span>حضور در دهمین نمایشگاه تخصصی ایران بلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+            
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2017</span>حضور در یازدهمین نمایشگاه تخصصی ایران بلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow" style="flex-direction: row;">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2018</span>حضور در دوازدهمین نمایشگاه ایران پلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2019</span>حضور در سیزدهمین نمایشگاه ایران پلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow" style="flex-direction: row;">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+<?php include '../components/footer.php';?>
+      
+</div>
+
+ 
+    <script type="text/javascript" src="../components/js/jquery-1.9.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+<script type="text/javascript">
+$('.responsiveMenu').hide();
+$('.iconnav').click(function(){
+     $('nav').hide();
+    $('.responsiveMenu').show();
+   
+});
+    
+  $(".hh").click(function(){
+    $(".rescontent").toggle();
+  });
+
+$('.rescloze').click(function(){
+    $(".rescontent").hide();
+    $('.responsiveMenu').hide();
+    $('nav').show();
+});
+
+
+// var triangle = document.getElementById("triangle");
+// var length = triangle.getTotalLength();
+
+// triangle.style.strokeDasharray = length;
+
+// triangle.style.strokeDashoffset = length;
+
+// window.addEventListener("scroll", myFunction);
+
+// function myFunction() {
+// var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+
+//   var draw = length * scrollpercent;
+  
+//   triangle.style.strokeDashoffset = length - draw;
+// }
+
+
+
+anime({
+    target:'#mySVG path',
+    strokeDashofset:[anime.setDashoffset,0],
+    easing:'easeInOut',
+    duration:5000,
+    direction:'alternate',
+    loop:true
+});
+
+
+
+
+
+
+</script>
+</body>
+</html>

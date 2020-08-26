@@ -1,0 +1,244 @@
+$('.container').mousemove(function(e){
+    var moveX = (e.pageX * -1 / 15);
+     var moveY = (e.pageY * -1 / 15);
+     $('.cb1').css('background-position', moveX + 'px ' + moveY + 'px');
+});
+$('.responsiveMenu').hide();
+$('.iconnav').click(function(){
+     $('nav').hide();
+    $('.responsiveMenu').show();
+   
+});
+    
+  $(".hh").click(function(){
+    $(".rescontent").toggle();
+  });
+
+$('.rescloze').click(function(){
+    $(".rescontent").hide();
+    $('.responsiveMenu').hide();
+    $('nav').show();
+});
+
+   var div = '<div class="divi"></div>';
+    var x = 0;
+    var y = 0;
+    var a = 0;
+    var b = 0;
+    var c = 0;
+    var d = 0;
+    var e = 0;
+    var f = 0;
+    var g = 0;
+    function mahsool14() {
+        var r = confirm("Go to instagram channel!");
+        if(r===true) {
+            window.open("https://www.instagram.com/gilanplast");
+        }
+    }
+    function mahsool13() {
+        var r = confirm("Go to telegram channel!");
+        if(r===true) {
+            window.open("https://www.instagram.com/gilanplast");
+        }
+    }
+    function catalogLink() {
+        var r = confirm("دانلود کاتالوگ");
+        if(r===true) {
+            window.open("https://www.instagram.com/gilanplast");
+        }
+    }
+
+
+
+
+
+
+
+      function mahsool1() {
+            
+                if(x === 0) {
+                    setTimeout(function(){
+                    $.get("page1.php",(data,status) => {
+                        $('.whatAppendMe1').append(div);
+                        $('.divi').append(data);
+                         $('.mahsool1axname').hide();$('.navbar').hide();
+                    });
+                },1000);
+                 $('.xxxx').hide(); 
+                x++;
+                }
+            }
+          
+            function deleData() {
+$('.navbar').show();
+                $('.mahsool1axname').show();
+                $('.divi').remove();
+                  $('.xxxx').show(); 
+                x--;
+            } 
+          function mahsool2() {
+                if(y === 0) {
+                    setTimeout(function(){
+                    $.get("page2.php",(data,status) => {
+                        $('.whatAppendMe2').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool2axname').hide();$('.navbar').hide();
+                    });
+                },1000);
+                $('.xxxx').hide(); 
+                y++;
+                } 
+               
+            }
+
+      function mahsool3() {
+                if(a === 0) {
+                    setTimeout(function(){
+                    $.get("page3.php",(data,status) => {
+                        $('.whatAppendMe3').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool3axname').hide();$('.navbar').hide();
+                    });
+                },1000);
+                $('.xxxx').hide(); 
+                a++;
+                } 
+               
+            }
+
+
+      function mahsool4() {
+                if(b === 0) {
+                    setTimeout(function(){
+                    $.get("page4.php",(data,status) => {
+                        $('.whatAppendMe4').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool4axname').hide();$('.navbar').hide();
+                    });
+                },1000);
+                $('.xxxx').hide(); 
+                b++;
+                } 
+               
+            }
+
+
+      function mahsool5() {
+                if(c === 0) {
+                    setTimeout(function(){
+                    $.get("page5.php",(data,status) => {
+                        $('.whatAppendMe5').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool5axname').hide();$('.navbar').hide();
+                    });
+                },1000);
+                $('.xxxx').hide(); 
+                c++;
+                } 
+               
+            }
+
+
+      function mahsool6() {
+                if(d === 0) {
+                    setTimeout(function(){
+                    $.get("page6.php",(data,status) => {
+                        $('.whatAppendMe6').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool6axname').hide();$('.navbar').hide();
+                    });
+                },1000);
+                $('.xxxx').hide(); 
+                d++
+                } 
+               
+            }
+
+
+      function mahsool7() {
+                if(e === 0) {
+                    setTimeout(function(){
+                    $.get("page7.php",(data,status) => {
+                        $('.whatAppendMe7').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool7axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                e++
+                } 
+               
+            }
+      function mahsool9() {
+                if(g === 0) {
+                    setTimeout(function(){
+                    $.get("page8.php",(data,status) => {
+                        $('.whatAppendMe9').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool9axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                g++
+                } 
+               
+            }
+
+
+
+
+
+    
+    function deleData1() {
+        $('.navbar').show();
+        $('.mahsool2axname').show();
+        $('.divi').remove();
+        $('.xxxx').show(); 
+        y--;
+    }
+    function deleData2() {
+        $('.navbar').show();
+        $('.mahsool3axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        a--;
+    }
+ function deleData3() {
+     $('.navbar').show();
+     $('.mahsool4axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        b--;
+    }
+    function deleData4() {
+        $('.navbar').show();
+        $('.mahsool5axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        c--;
+    }function deleData5() {
+        $('.navbar').show();
+        $('.mahsool6axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        d--;
+    }function deleData6() {
+        $('.navbar').show();
+        $('.mahsool7axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        e--;
+    }function deleData7() {
+        $('.navbar').show();
+        $('.mahsool8axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        f--;
+    }function deleData8() {
+        $('.navbar').show();
+        $('.mahsool9axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        g--;
+    }

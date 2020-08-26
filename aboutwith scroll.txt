@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Draw SVG</title>
+     
+     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script src="what.js"></script>
+     <style>
+         body {
+     background: #202020;
+     position: relative;
+     height: 2000px;
+}
+
+
+svg {
+    position: absolute;
+    top: 0;
+    left: -0;
+    right: 0;
+    bottom: 1600px;
+    margin: auto;
+    width: 40%;
+    height: 6000px;
+    /*background: RGBA(232, 231, 227,0.4);*/
+    
+}
+@media only screen and (max-width:900px) {
+    svg {
+        display:none;
+    }
+}
+
+     </style>
+ 
+    <style>
+    nav {
+         background-color: transparent !important;
+    }
+          @font-face {
+font-family: lalezar;
+src: url(../components/font/Lalezar-Regular.ttf);
+}
+
+* {
+font-family: 'lalezar', Fallback, sans-serif;
+}
+        body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFD525 !important;
+    position:relative;
+    
+}
+.contain{
+    width: 100%;
+    height:500px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+    
+}
+.leftAx{
+    
+    height:50%;
+    text-align: center;
+    
+}
+.leftAx img{
+    width: 400px;
+}
+.rightAx img{
+    width: 600px;
+}
+.rightAx{
+    height:50%;
+    text-align: left;
+}
+@media only screen and (max-width:900px) {
+    .contain {
+        flex-flow: column nowrap;
+    }
+    .leftAx{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .leftAx img{
+        width: 300px;
+    }
+    .rightAx img{
+        width: 400px;
+    }
+}
+@media only screen and (min-width:1700px) {
+    .leftAx img{
+        width: 500px;
+    }
+    .rightAx img{
+        width: 700px;
+    }
+}
+
+.headOfPage{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.slideRow{
+   display: flex;
+   justify-content: space-around;
+    flex-direction: row-reverse;
+}
+@media only screen and (max-width:900px){
+    .slideRow{
+        justify-content: center;
+         
+     }
+     .headOfPage pre {
+         margin-top: 90px;
+     }
+}
+.slidenama{
+    
+    width: 300px;
+    height: 300px;
+}
+.headOfslide{
+    display: flex;
+}
+.headOfslide span{
+    color: white;
+    font-size: 30px;
+   float: right;
+    
+}
+.headOfslide{
+    font-size: 12px;
+}
+.slideImg {
+    background: url(../components/img/About/slide.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+    </style>
+<link rel="stylesheet" href=".././components/css/style.css">
+    <link rel="stylesheet" href=".././components/css/styles.css">
+    <link rel="stylesheet" href=".././components/css/index.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+    <div class="logo">
+       
+    </div>
+
+    <div class="navAsly" id="mynavAsly">
+             
+
+  <a href="./catalog.php">کاتالوگ</a>
+  <a href="./contact.php">تماس با ما</a>
+  <a href="./about.php">درباره ما</a>
+   <div class="drapdawn">
+    <a class="drapbtnn">محصولات
+      <i>▿</i>
+    </a>
+
+    <div class="drapdawn-content">
+               <a href=".././products/page2.php">نی آشامیدنی</a>
+               <a href=".././products/page3.php">سفره یکبار مصرف</a>
+               <a href=".././products/page6.php">سلفون محافظ غذا </a>
+               <a href=".././products/page5.php">کیسه زباله</a>
+               <a href=".././products/page1.php">دستکش یکبار مصرف</a>   
+               <a href=".././products/page7.php">کیسه فریزر</a>
+               <a href=".././products/page4.php">فویل آلومینیوم</a>
+               <a href=".././products/page8.php"> دستکش خانگی و صنعتی گیلان</a>
+
+
+
+    </div>
+  </div> 
+  <a href="../index.php" class="activee" style="color:white">خانه 
+</a>
+  
+  <a style="font-size:49px;color:white;cursor:pointer" class="iconnav">&#9776;</a>
+</div>
+         
+
+</nav>
+<div class="responsiveMenu">
+        <div class="rescloze">X</div>
+        <div class="resMENU">
+            <a href="../index.php"><h1>خانه</h1></a>
+            <a href="./catalog.php"><h1>کاتالوگ</h1></a>
+            <a href="./about.php"><h1>درباره ما</h1></a>
+            <a href="./contact.php"><h1>تماس با ما</h1></a>
+
+        <h1 class="hh">محصولات <span>></span></h1>
+        
+        </div>
+<div class="rescontent">
+                 <a href=".././products/page2.php"><h3 style="color:#454951">نی آشامیدنی</h3></a>
+                 <a href=".././products/page3.php"><h3 style="color:#454951">سفره یکبار مصرف</h3></a>
+                 <a href=".././products/page6.php"><h3 style="color:#454951">سلفون محافظ غذا</h3></a>
+                 <a href=".././products/page5.php"><h3 style="color:#454951">کیسه زباله</h3></a>
+                 <a href=".././products/page1.php"><h3 style="color:#454951">دستکش یکبار مصرف</h3></a>
+                 <a href=".././products/page7.php"><h3 style="color:#454951">کیسه فریزر</h3></a>
+                 <a href=".././products/page4.php"><h3 style="color:#454951">فویل آلومینیوم</h3></a>
+                 <a href=".././products/page8.php"><h3 style="color:#454951">دستکش خانگی و صنعتی گیلان</h3></a>
+
+            </div>
+
+
+
+    </div>
+    
+    
+     <div class="shshs">
+          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.75 272.03"><path d="M 150 650 Q 150 800 150 800 C 150 850 250 900 300 950 Q 300 800 150 1000 C 200 1075 300 1050 300 1200 Q 150 1250 200 1350 C 250 1350 325 1375 400 1500 " transform="translate(-105.63 -119.99)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/></svg>
+     </div>
+       <div class="contain">
+        <div class="leftAx"><img src="../components/img/About/ladyAbout.png" alt=""></div>
+        <div class="rightAx"><img src="../components/img/About/matnAbout.png" alt=""></div>
+    </div>
+    <div class="headOfPage">
+        <pre style="color: white;">Internatonal & External
+ global Exhibition
+        </pre>
+        <h3 style="transform: translateY(-10px);">حضور در نمایشگاه های خارجی و بین المللی</h3>
+    </div>
+
+
+    <div class="whatShouldComeUp">
+    <div class="slideRow">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2014</span>حضور در نهمین نمایشگاه ایران پلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow" style="flex-direction: row;">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2016</span>حضور در دهمین نمایشگاه تخصصی ایران بلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+            
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2017</span>حضور در یازدهمین نمایشگاه تخصصی ایران بلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow" style="flex-direction: row;">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2018</span>حضور در دوازدهمین نمایشگاه ایران پلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                <h3><span>2019</span>حضور در سیزدهمین نمایشگاه ایران پلاست</h3>
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+    <div class="slideRow" style="flex-direction: row;">
+        <div class="slidenama">
+            <div class="headOfslide"> 
+                
+            </div>
+            <div class="slideImg"></div>
+        </div>
+        <div class="jaKhali"></div>
+    </div>
+
+<?php include '../components/footer.php';?>
+      
+</div>
+     <script type="text/javascript">
+
+     var $doc = $(document),
+          $win = $(window),
+          $svg = $('svg').drawsvg(),
+          max = $doc.height() - $win.height();
+
+          $win.on('scroll', function() {
+              var p = ($win.scrollTop() / max) /1.1;
+              $svg.drawsvg('progress', p);
+          });
+$('.responsiveMenu').hide();
+$('.iconnav').click(function(){
+     $('nav').hide();
+    $('.responsiveMenu').show();
+   
+});
+    
+  $(".hh").click(function(){
+    $(".rescontent").toggle();
+  });
+
+$('.rescloze').click(function(){
+    $(".rescontent").hide();
+    $('.responsiveMenu').hide();
+    $('nav').show();
+});
+     </script>
+</body>
+</html>

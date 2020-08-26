@@ -1,0 +1,2159 @@
+<!DOCTYPE html>
+
+<html class="v2">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>دستکش گیلانه</title>
+    <meta name="description" content="Design Director, photographer, and startup advisor based in the San Francisco, Bay Area. Currently working at Square. Clients include the NFL, NBA, Aol, Pfizer, and Liberty Mutual, Teespring, and Disqus.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" href="sortino.co/assets/img/home/logo.png">
+    <link rel="mask-icon" href="sortino.co/assets/img/favicon.svg" color="#1e2023">
+    <link rel="stylesheet" href="sortino.co/assets/css/styles.css">
+    <link rel="stylesheet" href="sortino.co/assets/css/ss-social-regular.css">
+    <link rel="stylesheet" href="../use.typekit.net/fmf1qbp.css">
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <style>
+    .xxxx{
+        display:block;
+        font-size:17px;
+    }
+    .container{
+        width: 100vw;
+        height: 500px;
+        background-color: #1e2023;
+        overflow-x:hidden;
+        display:flex;
+        justify-content:flex-start;
+        border-bottom:1px solid #383c43 !important;
+         background:url(sortino.co/assets/img/home/raad.png);
+          background-size:contain;
+          background-repeat:no-repeat;
+          z-index:2000px;
+    
+      }
+    @media only screen and (max-width:800px) {
+        .xxxx{
+            font-size:10px;
+        }
+        .container{
+            background:#1e2023;
+        }
+    }
+ .cb1{
+          background:url(sortino.co/assets/img/home/ladyAlone.png);
+          background-size:cover;
+          background-repeat:no-repeat;
+          width:700px;
+          height:400px;
+          z-index:1;
+          border:none !important;
+          transform:translate(100px,30px);
+          
+      }
+     
+     
+       @media only screen and (min-width:1800px) {
+        .container{
+            height:600px;
+        }
+      
+      .cb1{
+          background:url(sortino.co/assets/img/home/ladyAlone.png);
+          background-size:cover;
+          background-repeat:no-repeat;
+          width:700px;
+          height:500px;
+          z-index:1;
+          border:none !important;
+          transform:translate(140px,50px);
+          
+      }
+   
+    }
+       }
+      .box1g{
+          border-top:#383c43 1px solid !important;
+      }
+      @font-face {
+font-family: lalezar;
+src: url(sortino.co/assets/font/Lalezar-Regular.ttf);
+}
+
+* {
+font-family: 'lalezar', Fallback, sans-serif;
+}
+.menuItem{
+letter-spacing: 0 !important;
+font-size:25px !important;
+}
+.navbar{
+box-shadow: none !important;
+}
+@media only screen and (max-width : 600px) {
+    .container img{
+        transform:translate(-130px,50px);
+        width:600px;
+    }
+}
+.activee {
+  color: white;
+  text-decoration:none;
+  border-bottom:none;
+}
+.navAsly {
+  overflow: hidden;
+  direction: rtl;
+
+}
+a{
+    border-bottom:none;
+}
+
+.navAsly a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 26px;
+  border-bottom:none;
+}
+
+
+
+.navAsly .iconnav {
+  display: none;
+}
+
+.drapdawn {
+  float: left;
+  border-bottom:none;
+}
+.drapdawn i {
+    transform: rotate(90deg);
+}
+.drapdawn .drapbtnn {
+  font-size: 26px;    
+  border: none;
+  outline: none;
+  color: gray;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-bottom:none;
+}
+
+.drapdawn-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  border-bottom:none;
+  z-index: 1;
+  margin-top:60px;
+}
+
+.drapdawn-content a {
+  border-bottom:gray 1px solid;
+  float: none;
+  color: white;
+  background-color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size:17px;
+  text-align: center;
+}
+@media only screen and (min-width:2000px){
+    .navAsly a ,.drapdawn .drapbtnn{
+        font-size: 37px;
+    }
+    .drapdawn-content {
+
+  margin-top:80px;
+}
+
+    .drapdawn-content a{
+        font-size: 25px;
+    }
+}
+.navAsly a:hover, .drapdawn:hover .drapbtnn {
+
+  color: white;
+}
+
+.drapdawn-content a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.drapdawn:hover .drapdawn-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .navAsly a:not(:last-child), .drapdawn .drapbtnn {
+    display: none;
+  }
+  .navAsly a.iconnav {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navAsly.responsive {position: relative;}
+  .navAsly.responsive .iconnav {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navAsly.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navAsly.responsive .drapdawn {float: none;}
+  .navAsly.responsive .drapdawn-content {position: relative;}
+  .navAsly.responsive .drapdawn .drapbtnn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+body,html{
+            margin: 0;
+            padding: 0;
+        }
+        .responsiveMenu{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #FFD525;
+            color: black;
+            display: flex;
+            align-items: center;
+            
+        }
+        .resMENU{
+            margin: 0 auto;
+        }
+        .resMENU h1:hover{
+            color:white;
+            cursor: pointer;
+        }
+        .rescontent{
+            display: none;
+        }
+        .rescloze{
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+          @media only screen and (max-width:800px){
+            .container {
+                display:block;
+                overflow-x:hidden;
+               width:100vw;
+            }
+             .cb1 {
+                background:url(sortino.co/assets/img/home/lady.png);
+               background-repeat:no-repeat;
+               background-size:contain;
+               width:600px;
+               transform:translateX(-120px);
+                background-position:left center;
+            }
+            
+        }
+                #portfolio .project .secondary-logo {
+    position: absolute;
+    top: 14%;
+    left:33%;
+    width:31%;
+    opacity: 0;
+    transition: opacity 0.05s;
+}
+    @media only screen and (min-width:1800px) {
+        #portfolio .project .secondary-logo {
+    position: absolute;
+    top: 20%;
+    left:40%;
+    width:20%;
+    opacity: 0;
+    transition: opacity 0.05s;
+}
+    }
+</style>
+</head>
+<body>	
+<nav id="navbar" class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="sortino.co/assets/img/home/logo.png" alt="" style="width:70px">
+        </a>
+        <a href="index.html">
+            <img src="sortino.co/assets/img/home/iran.png" alt="" style="width:30px">
+        </a>
+        <a href="arab.html">
+            <img src="sortino.co/assets/img/home/iraq.png" alt="" style="width:30px;border:white solid 1px">
+        </a>
+        <a href="english.html">
+            <img src="sortino.co/assets/img/home/english.png" alt="" style="width:30px">
+        </a>
+    </div>
+
+    <div class="navAsly" id="mynavAsly">
+             
+
+  <a onclick="catalogLink()">تحمیل کتالوج</a>
+  <a href="contact.php">اتصل بنا</a>
+  <a href="about.html">من نحن</a>
+   <div class="drapdawn">
+    <a class="drapbtnn">المنتجات
+      <i>></i>
+    </a>
+
+    <div class="drapdawn-content">
+               <a href="page2.php">شرب القش</a>
+               <a href="page3.php">مفارش المائده المتاح</a>
+               <a href="page6.php">التفاف الغذاء</a>
+               <a href="page5.php">اکیاس القمامه المتاح</a>
+               <a href="page1.php">القفازات المتاح </a>   
+               <a href="page7.php">کیس الفریزر</a>
+               <a href="page4.php">ورق الومنیوم </a>
+               <a href="page8.php">القفازات المنزلیه و الصناعیه الجیلان</a>
+
+
+
+    </div>
+  </div> 
+  <a href="#" class="activee" style="color:white">الصفحة الرئیسیة
+</a>
+  
+  <a style="font-size:15px;" class="iconnav">&#9776;</a>
+</div>
+         
+
+</nav>
+<div class="responsiveMenu">
+        <div class="rescloze">X</div>
+        <div class="resMENU">
+            <a href="home.html"><h1>الصفحة الرئیسیة
+</h1></a>
+            <a href="about.html"><h1>من نحن</h1></a>
+            <a href="contact.php"><h1>اتصل بنا</h1></a>
+            <a onclick="catalogLink()"><h1>تحمیل کتالوج</h1></a>
+            <h1 class="hh">المنتجات <span>></span></h1>
+            
+        </div>
+<div class="rescontent">
+                          <a href="page2.php"><h3 style="color:#454951">شرب القش</h3></a>
+                          <a href="page3.php"><h3 style="color:#454951">مفارش المائده المتاح</h3></a>
+                          <a href="page6.php"><h3 style="color:#454951">التفاف الغذاء </h3></a>
+                          <a href="page5.php"><h3 style="color:#454951">اکیاس القمامه المتاح</h3></a>
+                          <a href="page1.php"><h3 style="color:#454951">القفازات المتاح</h3></a>
+                          <a href="page7.php"><h3 style="color:#454951">ورق الومنیوم</h3></a>
+                          <a href="page4.php"><h3 style="color:#454951">کیس الفریزر</h3></a>   
+                         <a href="page8.php"><h3 style="color:#454951">القفازات المنزلیه و الصناعیه الجیلان</h3></a>                                         
+
+
+            </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+<div id="page-content" class="touch-scroll">                                
+    
+  <div class="container">
+            <div class="cb1"></div>
+    <div></div>
+
+    
+</div>
+
+
+
+        <section id="portfolio" class="xx parent-page catalog design dynamic-content objects-open active-page">
+            
+
+            <section id="project-square" class="box1g project project-square object-2x1 double-logo">
+                <div class="project-spacer" onclick="mahsool1()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx3.svg" class="project-logo mahsool1axname" alt=""><img class="secondary-logo" src="sortino.co/assets/img/product/dastkesh.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">القفازات المتاح</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project azaz" onclick="deleData()">
+                                <span class="icon icon-close clozeup">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe1">	
+                        </div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            
+            </section>
+            <section id="project-viewfinder-app" class="box1g project project-viewfinder-app object-1x1 double-logo long-logo">
+                <div class="project-spacer" onclick="mahsool2()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx2.svg" class="project-logo mahsool2axname" alt="viewfinder-logomark.svg"><img src="sortino.co/assets/img/product/ney.svg" class="secondary-logo" alt="viewfinder-logotext.svg">
+                            <p style="position: absolute;right:18px;bottom:0" class="xxxx">شرب القش</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData1()">
+                                <span class="icon icon-close"></span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe2">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-bff" class="box1g project project-bff object-1x1">
+                <div class="project-spacer" onclick="mahsool3()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx1.svg" class="project-logo mahsool3axname" alt="bff-logo-long.svg" style="width:300px !important"><img src="sortino.co/assets/img/product/sofreyebar.svg" class="secondary-logo" alt="viewfinder-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">مفارش المائده المتاح</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData2()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                           
+                        </div>			<div class="project-content whatAppendMe3">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            
+            
+
+            
+            <section id="project-teespring" class="project project-teespring object-1x1">
+                <div class="project-spacer" onclick="mahsool4()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx7.svg" class="project-logo mahsool4axname" alt="teespring-brandmark.svg"><img src="sortino.co/assets/img/product/foil.svg" class="secondary-logo" alt="vida-mobile-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">ورق آلومنیوم</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData3()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe4">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-everdwell" class="project project-everdwell object-1x1 double-logo long-logo">
+                <div class="project-spacer" onclick="mahsool5()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx6.svg" class="project-logo mahsool5axname" alt="everdwell-brandmark.svg"><img src="sortino.co/assets/img/product/kisezobale.svg" class="secondary-logo" alt="everdwell-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">اکیاس القمامه المتاح</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData4()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe5">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-bulan" class="project project-bulan object-1x1 double-logo">
+                <div class="project-spacer" onclick="mahsool6()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx5.svg" class="project-logo mahsool6axname" alt="bulan-brandmark.svg"><img src="sortino.co/assets/img/product/selfon.svg" class="secondary-logo" alt="bulan-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">التفاف الغذاء</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData5()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe6">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-disqus-embed" class="project project-disqus-embed object-1x1">
+                <div class="project-spacer" onclick="mahsool7()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx4.svg" class="project-logo mahsool7axname" alt="disqus-logotext.svg"><img src="sortino.co/assets/img/product/kisefrizer.svg" class="secondary-logo" alt="vida-mobile-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">کیس الفریزر</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData6()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                        </div>			<div class="project-content whatAppendMe7">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-marker-app" class="project project-marker-app object-1x1">
+                <div class="project-spacer" onclick="mahsool8()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx8.svg" class="project-logo mahsool8axname" alt="marker-app-logomark.svg"><img src="sortino.co/assets/img/product/dastkesha.svg" class="secondary-logo" alt="vida-mobile-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">القفازات المنزلیه و الصناعیه؛ الجیلان ؛</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData7()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                           
+                        </div>			<div class="project-content whatAppendMe8">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-vida-mobile" class="project project-vida-mobile object-1x1 double-logo">
+                <div class="project-spacer" onclick="mahsool9()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx10.svg" class="project-logo mahsool9axname" alt="vida-mobile-brandmark.svg"><img src="sortino.co/assets/img/box/boxx10.svg" class="secondary-logo" alt="vida-mobile-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">لمنزلیه و الصناعیه؛ الجیلان ؛</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData8()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe9">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <section id="project-webdesigner-depot" class="project project-webdesigner-depot object-1x1 double-logo long-logo" onclick="catalogLink()">
+                <div class="project-spacer">
+                    <a href="" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx9.svg" class="project-logo" alt="webdesigner-depot-brandmark.svg"><img src="sortino.co/assets/img/box/boxx9.svg" class="secondary-logo" alt="webdesigner-depot-logotext.svg">
+                           <p style="position: absolute;right:18px;bottom:0" class="xxxx">منتجات التداول</p>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+             <section id="project-bento" class="project project-bento object-1x1" onclick="catalogLink()">
+                <div class="project-spacer">
+                    <a href="" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx8.svg" class="project-logo" alt="bento-logo.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">المنتجات المصنعه</p>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="project-instacart" class="project project-instacart object-2x1" onclick="mahsool12()">
+                <div class="project-spacer">
+                    <a href="contact.html" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx13.svg" class="project-logo" alt="instacart-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">اتصل بنا</p>
+                            </header>
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+            <section id="project-dolody" class="project project-dolody object-1x1 double-logo" onclick="mahsool13()">
+                <div class="project-spacer">
+                    <a href="" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx12.svg" class="project-logo" alt="dolody-logomark.svg"><img src="sortino.co/assets/img/box/boxx12.svg" class="secondary-logo" alt="dolody-logotext.svg">
+                           <p style="position: absolute;right:18px;bottom:0" class="xxxx">کانال تلجرام</p>
+                            </header>
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+            <section id="project-disqus-dashboard" class="project project-disqus-dashboard object-1x1 double-logo" onclick="mahsool14()">
+                <div class="project-spacer">
+                    <a href="" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx11.svg" class="project-logo" alt="disqus-brandmark.svg"><img src="sortino.co/assets/img/box/boxx11.svg" class="secondary-logo" alt="disqus-logotext.svg">
+                           <p style="position: absolute;right:18px;bottom:0" class="xxxx">اینستاجرام</p>
+                            </header>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+        </section>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="sortino.co/assets/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+$('.container').mousemove(function(e){
+    var moveX = (e.pageX * -1 / 15);
+     var moveY = (e.pageY * -1 / 15);
+     $('.cb1').css('background-position', moveX + 'px ' + moveY + 'px');
+})
+$('.responsiveMenu').hide();
+$('.iconnav').click(function(){
+     $('nav').hide();
+    $('.responsiveMenu').show();
+   
+});
+    
+  $(".hh").click(function(){
+    $(".rescontent").toggle();
+  });
+
+$('.rescloze').click(function(){
+    $(".rescontent").hide();
+    $('.responsiveMenu').hide();
+    $('nav').show();
+});
+
+   var div = '<div class="divi"></div>';
+    var x = 0;
+    var y = 0;
+    var a = 0;
+    var b = 0;
+    var c = 0;
+    var d = 0;
+    var e = 0;
+    var f = 0;
+    var g = 0;
+    function mahsool14() {
+        var r = confirm("Go to instagram channel!");
+        if(r===true) {
+            window.open("https://www.instagram.com/gilanplast");
+        }
+    }
+    function mahsool13() {
+        var r = confirm("Go to telegram channel!");
+        if(r===true) {
+            window.open("https://www.instagram.com/gilanplast");
+        }
+    }
+    function catalogLink() {
+        var r = confirm("دانلود کاتالوگ");
+        if(r===true) {
+            window.open("https://www.instagram.com/gilanplast");
+        }
+    }
+
+
+
+
+
+
+
+      function mahsool1() {
+            
+                if(x === 0) {
+                    setTimeout(function(){
+                    $.get("page1.php",(data,status) => {
+                        $('.whatAppendMe1').append(div);
+                        $('.divi').append(data);
+                         $('.mahsool1axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                 $('.xxxx').hide(); 
+                x++;
+                } ;
+            };
+          
+            function deleData() {
+$('.navbar').show();
+                $('.mahsool1axname').show();
+                $('.divi').remove();
+                  $('.xxxx').show(); 
+                x--;
+            } 
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+      function mahsool2() {
+                if(y === 0) {
+                    setTimeout(function(){
+                    $.get("page2.php",(data,status) => {
+                        $('.whatAppendMe2').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool2axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                y++
+                } 
+               
+            }
+
+      function mahsool3() {
+                if(a === 0) {
+                    setTimeout(function(){
+                    $.get("page3.php",(data,status) => {
+                        $('.whatAppendMe3').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool3axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                a++
+                } 
+               
+            }
+
+
+      function mahsool4() {
+                if(b === 0) {
+                    setTimeout(function(){
+                    $.get("page4.php",(data,status) => {
+                        $('.whatAppendMe4').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool4axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                b++
+                } 
+               
+            }
+
+
+      function mahsool5() {
+                if(c === 0) {
+                    setTimeout(function(){
+                    $.get("page5.php",(data,status) => {
+                        $('.whatAppendMe5').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool5axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                c++
+                } 
+               
+            }
+
+
+      function mahsool6() {
+                if(d === 0) {
+                    setTimeout(function(){
+                    $.get("page6.php",(data,status) => {
+                        $('.whatAppendMe6').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool6axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                d++
+                } 
+               
+            }
+
+
+      function mahsool7() {
+                if(e === 0) {
+                    setTimeout(function(){
+                    $.get("page7.php",(data,status) => {
+                        $('.whatAppendMe7').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool7axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                e++
+                } 
+               
+            }
+
+    //   function mahsool8() {
+    //             if(f === 0) {
+    //                 setTimeout(function(){
+    //                 $.get("product.html",(data,status) => {
+    //                     $('.whatAppendMe8').append(div);
+    //                     $('.divi').append(data);
+    //                     $('.mahsool8axname').hide();
+    //                 })
+    //             },1000);
+    //             $('.xxxx').hide(); 
+    //             f++
+    //             } 
+               
+    //         }
+
+
+      function mahsool9() {
+                if(g === 0) {
+                    setTimeout(function(){
+                    $.get("page8.php",(data,status) => {
+                        $('.whatAppendMe9').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool9axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                g++
+                } 
+               
+            }
+
+
+
+
+
+    
+    function deleData1() {
+        $('.navbar').show();
+        $('.mahsool2axname').show();
+        $('.divi').remove();
+        $('.xxxx').show(); 
+        y--;
+    }
+    function deleData2() {
+        $('.navbar').show();
+        $('.mahsool3axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        a--;
+    }
+ function deleData3() {
+     $('.navbar').show();
+     $('.mahsool4axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        b--;
+    }
+    function deleData4() {
+        $('.navbar').show();
+        $('.mahsool5axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        c--;
+    }function deleData5() {
+        $('.navbar').show();
+        $('.mahsool6axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        d--;
+    }function deleData6() {
+        $('.navbar').show();
+        $('.mahsool7axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        e--;
+    }function deleData7() {
+        $('.navbar').show();
+        $('.mahsool8axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        f--;
+    }function deleData8() {
+        $('.navbar').show();
+        $('.mahsool9axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        g--;
+    }
+           
+       
+
+ 
+
+
+
+
+var $pageTitles = {
+"/": {"pageTitle": "San Francisco Design Executive & Photographer" },
+    "/design": {"pageTitle": "Design Project Portfolio" },
+    "/photography": {"pageTitle": "Photography Project Portfolio" },
+    "/writing": {"pageTitle": "Writing & Publications" },
+    "/speaking": {"pageTitle": "Public Speaking & Coaching" },
+    "/about": {"pageTitle": "Biography" },
+    "/contact": {"pageTitle": "Get in Touch" },
+    "design/square": {"pageTitle": "Square Case Study: Designing an end-to-end payments experience" },
+    "design/bff": {"pageTitle": "BFF Case Study: Your best financial friend" },
+    "design/bulan": {"pageTitle": "Bulan Case Study: Modern engineering for modern art" },
+    "design/marker-app": {"pageTitle": "Marker Case Study: Instant location sharing for Android" },
+    "design/everdwell": {"pageTitle": "Everdwell Case Study: The easiest website builder for your home" },
+    "design/dolody": {"pageTitle": "Dolody Case Study: Next-gen publication for designers" },
+    "design/webdesigner-depot": {"pageTitle": "Web Designer Depot Case Study: Designing an editorial for designers" },
+    "design/teespring": {"pageTitle": "Teespring Case Study: Helping anyone create & sell the perfect shirt" },
+    "design/disqus-embed": {"pageTitle": "Disqus Case Study: Designing for billions of commenters" },
+    "design/bento": {"pageTitle": "Bento Case Study: Customized on-demand bento boxes" },
+    "design/instacart": {"pageTitle": "Instacart Case Study: Redesigning the digital shopping cart" },
+    "design/vida-mobile": {"pageTitle": "Vida Case Study: Designing a health coach in your pocket" },
+    "design/disqus-dashboard": {"pageTitle": "Disqus Dashboard Case Study: Designing the Disqus Dashboard" },
+    "design/celebration-cruises": {"pageTitle": "Celebration Cruises Case Study: Celebration Cruises Website Design" },
+        };
+        
+        
+        
+        
+        
+</script>
+<!--<script type="text/javascript" src="sortino.co/assets/js/highlight.pack.js"></script>-->
+<!--<script type="text/javascript" src="sortino.co/assets/js/crawler.js"></script>-->
+<!--<script type="text/javascript" src="sortino.co/assets/js/jquery.isInViewport.js"></script>-->
+<script type="text/javascript" src="sortino.co/assets/js/scripts.js"></script>
+<!--<script type="text/javascript" src="sortino.co/assets/js/jquery.spin.js"></script>-->
+<!--<script type="text/javascript" src="sortino.co/assets/js/jquery.glass.js"></script>-->
+</body>
+</html><!DOCTYPE html>
+
+<html class="v2">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>دستکش گیلانه</title>
+    <meta name="description" content="Design Director, photographer, and startup advisor based in the San Francisco, Bay Area. Currently working at Square. Clients include the NFL, NBA, Aol, Pfizer, and Liberty Mutual, Teespring, and Disqus.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" href="sortino.co/assets/img/home/logo.png">
+    <link rel="mask-icon" href="sortino.co/assets/img/favicon.svg" color="#1e2023">
+    <link rel="stylesheet" href="sortino.co/assets/css/styles.css">
+    <link rel="stylesheet" href="sortino.co/assets/css/ss-social-regular.css">
+    <link rel="stylesheet" href="../use.typekit.net/fmf1qbp.css">
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <style>
+    .xxxx{
+        display:block;
+        font-size:17px;
+    }
+    .container{
+        width: 100vw;
+        height: 500px;
+        background-color: #1e2023;
+        overflow-x:hidden;
+        display:flex;
+        justify-content:flex-start;
+        border-bottom:1px solid #383c43 !important;
+         background:url(sortino.co/assets/img/home/raad.png);
+          background-size:contain;
+          background-repeat:no-repeat;
+          z-index:2000px;
+    
+      }
+    @media only screen and (max-width:800px) {
+        .xxxx{
+            font-size:10px;
+        }
+        .container{
+            background:#1e2023;
+        }
+    }
+ .cb1{
+          background:url(sortino.co/assets/img/home/ladyAlone.png);
+          background-size:cover;
+          background-repeat:no-repeat;
+          width:700px;
+          height:400px;
+          z-index:1;
+          border:none !important;
+          transform:translate(100px,30px);
+          
+      }
+     
+     
+       @media only screen and (min-width:1800px) {
+        .container{
+            height:600px;
+        }
+      
+      .cb1{
+          background:url(sortino.co/assets/img/home/ladyAlone.png);
+          background-size:cover;
+          background-repeat:no-repeat;
+          width:700px;
+          height:500px;
+          z-index:1;
+          border:none !important;
+          transform:translate(140px,50px);
+          
+      }
+   
+    }
+       }
+      .box1g{
+          border-top:#383c43 1px solid !important;
+      }
+      @font-face {
+font-family: lalezar;
+src: url(sortino.co/assets/font/Lalezar-Regular.ttf);
+}
+
+* {
+font-family: 'lalezar', Fallback, sans-serif;
+}
+.menuItem{
+letter-spacing: 0 !important;
+font-size:25px !important;
+}
+.navbar{
+box-shadow: none !important;
+}
+@media only screen and (max-width : 600px) {
+    .container img{
+        transform:translate(-130px,50px);
+        width:600px;
+    }
+}
+.activee {
+  color: white;
+  text-decoration:none;
+  border-bottom:none;
+}
+.navAsly {
+  overflow: hidden;
+  direction: rtl;
+
+}
+a{
+    border-bottom:none;
+}
+
+.navAsly a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 26px;
+  border-bottom:none;
+}
+
+
+
+.navAsly .iconnav {
+  display: none;
+}
+
+.drapdawn {
+  float: left;
+  border-bottom:none;
+}
+.drapdawn i {
+    transform: rotate(90deg);
+}
+.drapdawn .drapbtnn {
+  font-size: 26px;    
+  border: none;
+  outline: none;
+  color: gray;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-bottom:none;
+}
+
+.drapdawn-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  border-bottom:none;
+  z-index: 1;
+  margin-top:60px;
+}
+
+.drapdawn-content a {
+  border-bottom:gray 1px solid;
+  float: none;
+  color: white;
+  background-color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size:17px;
+  text-align: center;
+}
+@media only screen and (min-width:2000px){
+    .navAsly a ,.drapdawn .drapbtnn{
+        font-size: 37px;
+    }
+    .drapdawn-content {
+
+  margin-top:80px;
+}
+
+    .drapdawn-content a{
+        font-size: 25px;
+    }
+}
+.navAsly a:hover, .drapdawn:hover .drapbtnn {
+
+  color: white;
+}
+
+.drapdawn-content a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.drapdawn:hover .drapdawn-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .navAsly a:not(:last-child), .drapdawn .drapbtnn {
+    display: none;
+  }
+  .navAsly a.iconnav {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navAsly.responsive {position: relative;}
+  .navAsly.responsive .iconnav {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navAsly.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navAsly.responsive .drapdawn {float: none;}
+  .navAsly.responsive .drapdawn-content {position: relative;}
+  .navAsly.responsive .drapdawn .drapbtnn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+body,html{
+            margin: 0;
+            padding: 0;
+        }
+        .responsiveMenu{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #FFD525;
+            color: black;
+            display: flex;
+            align-items: center;
+            
+        }
+        .resMENU{
+            margin: 0 auto;
+        }
+        .resMENU h1:hover{
+            color:white;
+            cursor: pointer;
+        }
+        .rescontent{
+            display: none;
+        }
+        .rescloze{
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+          @media only screen and (max-width:800px){
+            .container {
+                display:block;
+                overflow-x:hidden;
+               width:100vw;
+            }
+             .cb1 {
+                background:url(sortino.co/assets/img/home/lady.png);
+               background-repeat:no-repeat;
+               background-size:contain;
+               width:600px;
+               transform:translateX(-120px);
+                background-position:left center;
+            }
+            
+        }
+                #portfolio .project .secondary-logo {
+    position: absolute;
+    top: 14%;
+    left:33%;
+    width:31%;
+    opacity: 0;
+    transition: opacity 0.05s;
+}
+    @media only screen and (min-width:1800px) {
+        #portfolio .project .secondary-logo {
+    position: absolute;
+    top: 20%;
+    left:40%;
+    width:20%;
+    opacity: 0;
+    transition: opacity 0.05s;
+}
+    }
+</style>
+</head>
+<body>	
+<nav id="navbar" class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="sortino.co/assets/img/home/logo.png" alt="" style="width:70px">
+        </a>
+        <a href="index.html">
+            <img src="sortino.co/assets/img/home/iran.png" alt="" style="width:30px">
+        </a>
+        <a href="arab.html">
+            <img src="sortino.co/assets/img/home/iraq.png" alt="" style="width:30px;border:white solid 1px">
+        </a>
+        <a href="english.html">
+            <img src="sortino.co/assets/img/home/english.png" alt="" style="width:30px">
+        </a>
+    </div>
+
+    <div class="navAsly" id="mynavAsly">
+             
+
+  <a onclick="catalogLink()">تحمیل کتالوج</a>
+  <a href="contact.php">اتصل بنا</a>
+  <a href="about.html">من نحن</a>
+   <div class="drapdawn">
+    <a class="drapbtnn">المنتجات
+      <i>></i>
+    </a>
+
+    <div class="drapdawn-content">
+               <a href="page2.php">شرب القش</a>
+               <a href="page3.php">مفارش المائده المتاح</a>
+               <a href="page6.php">التفاف الغذاء</a>
+               <a href="page5.php">اکیاس القمامه المتاح</a>
+               <a href="page1.php">القفازات المتاح </a>   
+               <a href="page7.php">کیس الفریزر</a>
+               <a href="page4.php">ورق الومنیوم </a>
+               <a href="page8.php">القفازات المنزلیه و الصناعیه الجیلان</a>
+
+
+
+    </div>
+  </div> 
+  <a href="#" class="activee" style="color:white">الصفحة الرئیسیة
+</a>
+  
+  <a style="font-size:15px;" class="iconnav">&#9776;</a>
+</div>
+         
+
+</nav>
+<div class="responsiveMenu">
+        <div class="rescloze">X</div>
+        <div class="resMENU">
+            <a href="home.html"><h1>الصفحة الرئیسیة
+</h1></a>
+            <a href="about.html"><h1>من نحن</h1></a>
+            <a href="contact.php"><h1>اتصل بنا</h1></a>
+            <a onclick="catalogLink()"><h1>تحمیل کتالوج</h1></a>
+            <h1 class="hh">المنتجات <span>></span></h1>
+            
+        </div>
+<div class="rescontent">
+                          <a href="page2.php"><h3 style="color:#454951">شرب القش</h3></a>
+                          <a href="page3.php"><h3 style="color:#454951">مفارش المائده المتاح</h3></a>
+                          <a href="page6.php"><h3 style="color:#454951">التفاف الغذاء </h3></a>
+                          <a href="page5.php"><h3 style="color:#454951">اکیاس القمامه المتاح</h3></a>
+                          <a href="page1.php"><h3 style="color:#454951">القفازات المتاح</h3></a>
+                          <a href="page7.php"><h3 style="color:#454951">ورق الومنیوم</h3></a>
+                          <a href="page4.php"><h3 style="color:#454951">کیس الفریزر</h3></a>   
+                         <a href="page8.php"><h3 style="color:#454951">القفازات المنزلیه و الصناعیه الجیلان</h3></a>                                         
+
+
+            </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+<div id="page-content" class="touch-scroll">                                
+    
+  <div class="container">
+            <div class="cb1"></div>
+    <div></div>
+
+    
+</div>
+
+
+
+        <section id="portfolio" class="xx parent-page catalog design dynamic-content objects-open active-page">
+            
+
+            <section id="project-square" class="box1g project project-square object-2x1 double-logo">
+                <div class="project-spacer" onclick="mahsool1()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx3.svg" class="project-logo mahsool1axname" alt=""><img class="secondary-logo" src="sortino.co/assets/img/product/dastkesh.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">القفازات المتاح</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project azaz" onclick="deleData()">
+                                <span class="icon icon-close clozeup">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe1">	
+                        </div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            
+            </section>
+            <section id="project-viewfinder-app" class="box1g project project-viewfinder-app object-1x1 double-logo long-logo">
+                <div class="project-spacer" onclick="mahsool2()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx2.svg" class="project-logo mahsool2axname" alt="viewfinder-logomark.svg"><img src="sortino.co/assets/img/product/ney.svg" class="secondary-logo" alt="viewfinder-logotext.svg">
+                            <p style="position: absolute;right:18px;bottom:0" class="xxxx">شرب القش</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData1()">
+                                <span class="icon icon-close"></span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe2">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-bff" class="box1g project project-bff object-1x1">
+                <div class="project-spacer" onclick="mahsool3()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx1.svg" class="project-logo mahsool3axname" alt="bff-logo-long.svg" style="width:300px !important"><img src="sortino.co/assets/img/product/sofreyebar.svg" class="secondary-logo" alt="viewfinder-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">مفارش المائده المتاح</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData2()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                           
+                        </div>			<div class="project-content whatAppendMe3">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            
+            
+
+            
+            <section id="project-teespring" class="project project-teespring object-1x1">
+                <div class="project-spacer" onclick="mahsool4()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx7.svg" class="project-logo mahsool4axname" alt="teespring-brandmark.svg"><img src="sortino.co/assets/img/product/foil.svg" class="secondary-logo" alt="vida-mobile-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">ورق آلومنیوم</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData3()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe4">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-everdwell" class="project project-everdwell object-1x1 double-logo long-logo">
+                <div class="project-spacer" onclick="mahsool5()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx6.svg" class="project-logo mahsool5axname" alt="everdwell-brandmark.svg"><img src="sortino.co/assets/img/product/kisezobale.svg" class="secondary-logo" alt="everdwell-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">اکیاس القمامه المتاح</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData4()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe5">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-bulan" class="project project-bulan object-1x1 double-logo">
+                <div class="project-spacer" onclick="mahsool6()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx5.svg" class="project-logo mahsool6axname" alt="bulan-brandmark.svg"><img src="sortino.co/assets/img/product/selfon.svg" class="secondary-logo" alt="bulan-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">التفاف الغذاء</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData5()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe6">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-disqus-embed" class="project project-disqus-embed object-1x1">
+                <div class="project-spacer" onclick="mahsool7()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx4.svg" class="project-logo mahsool7axname" alt="disqus-logotext.svg"><img src="sortino.co/assets/img/product/kisefrizer.svg" class="secondary-logo" alt="vida-mobile-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">کیس الفریزر</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData6()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                        </div>			<div class="project-content whatAppendMe7">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-marker-app" class="project project-marker-app object-1x1">
+                <div class="project-spacer" onclick="mahsool8()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx8.svg" class="project-logo mahsool8axname" alt="marker-app-logomark.svg"><img src="sortino.co/assets/img/product/dastkesha.svg" class="secondary-logo" alt="vida-mobile-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">القفازات المنزلیه و الصناعیه؛ الجیلان ؛</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData7()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                           
+                        </div>			<div class="project-content whatAppendMe8">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            <section id="project-vida-mobile" class="project project-vida-mobile object-1x1 double-logo">
+                <div class="project-spacer" onclick="mahsool9()">
+                    <a href="" class="btn-open-project btn-trigger btn-project">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx10.svg" class="project-logo mahsool9axname" alt="vida-mobile-brandmark.svg"><img src="sortino.co/assets/img/box/boxx10.svg" class="secondary-logo" alt="vida-mobile-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">لمنزلیه و الصناعیه؛ الجیلان ؛</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-controls">
+                            <button class="btn btn-blank btn-close-project" onclick="deleData8()">
+                                <span class="icon icon-close">X</span>
+                            </button>
+                            
+                        </div>			<div class="project-content whatAppendMe9">	</div>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 1530" preserveAspectRatio="none"><path class="cls-1" d="M0,1530H1366V79.07C1184.41,29.88,945.17,0,683,0S181.59,29.88,0,79.07Z"/></svg>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <section id="project-webdesigner-depot" class="project project-webdesigner-depot object-1x1 double-logo long-logo" onclick="catalogLink()">
+                <div class="project-spacer">
+                    <a href="" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx9.svg" class="project-logo" alt="webdesigner-depot-brandmark.svg"><img src="sortino.co/assets/img/box/boxx9.svg" class="secondary-logo" alt="webdesigner-depot-logotext.svg">
+                           <p style="position: absolute;right:18px;bottom:0" class="xxxx">منتجات التداول</p>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+             <section id="project-bento" class="project project-bento object-1x1" onclick="catalogLink()">
+                <div class="project-spacer">
+                    <a href="" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx8.svg" class="project-logo" alt="bento-logo.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">المنتجات المصنعه</p>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="project-instacart" class="project project-instacart object-2x1" onclick="mahsool12()">
+                <div class="project-spacer">
+                    <a href="contact.html" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx13.svg" class="project-logo" alt="instacart-logotext.svg">
+                                <p style="position: absolute;right:18px;bottom:0" class="xxxx">اتصل بنا</p>
+                            </header>
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+            <section id="project-dolody" class="project project-dolody object-1x1 double-logo" onclick="mahsool13()">
+                <div class="project-spacer">
+                    <a href="" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx12.svg" class="project-logo" alt="dolody-logomark.svg"><img src="sortino.co/assets/img/box/boxx12.svg" class="secondary-logo" alt="dolody-logotext.svg">
+                           <p style="position: absolute;right:18px;bottom:0" class="xxxx">کانال تلجرام</p>
+                            </header>
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+            <section id="project-disqus-dashboard" class="project project-disqus-dashboard object-1x1 double-logo" onclick="mahsool14()">
+                <div class="project-spacer">
+                    <a href="" class="btn-open-project btn-trigger">Open Project</a>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-summary">
+                        <div class="project-summary-container">
+                            <header style="position: relative;">
+                                <img src="sortino.co/assets/img/box/boxx11.svg" class="project-logo" alt="disqus-brandmark.svg"><img src="sortino.co/assets/img/box/boxx11.svg" class="secondary-logo" alt="disqus-logotext.svg">
+                           <p style="position: absolute;right:18px;bottom:0" class="xxxx">اینستاجرام</p>
+                            </header>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+        </section>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="sortino.co/assets/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+$('.container').mousemove(function(e){
+    var moveX = (e.pageX * -1 / 15);
+     var moveY = (e.pageY * -1 / 15);
+     $('.cb1').css('background-position', moveX + 'px ' + moveY + 'px');
+})
+$('.responsiveMenu').hide();
+$('.iconnav').click(function(){
+     $('nav').hide();
+    $('.responsiveMenu').show();
+   
+});
+    
+  $(".hh").click(function(){
+    $(".rescontent").toggle();
+  });
+
+$('.rescloze').click(function(){
+    $(".rescontent").hide();
+    $('.responsiveMenu').hide();
+    $('nav').show();
+});
+
+   var div = '<div class="divi"></div>';
+    var x = 0;
+    var y = 0;
+    var a = 0;
+    var b = 0;
+    var c = 0;
+    var d = 0;
+    var e = 0;
+    var f = 0;
+    var g = 0;
+    function mahsool14() {
+        var r = confirm("Go to instagram channel!");
+        if(r===true) {
+            window.open("https://www.instagram.com/gilanplast");
+        }
+    }
+    function mahsool13() {
+        var r = confirm("Go to telegram channel!");
+        if(r===true) {
+            window.open("https://www.instagram.com/gilanplast");
+        }
+    }
+    function catalogLink() {
+        var r = confirm("دانلود کاتالوگ");
+        if(r===true) {
+            window.open("https://www.instagram.com/gilanplast");
+        }
+    }
+
+
+
+
+
+
+
+      function mahsool1() {
+            
+                if(x === 0) {
+                    setTimeout(function(){
+                    $.get("page1.php",(data,status) => {
+                        $('.whatAppendMe1').append(div);
+                        $('.divi').append(data);
+                         $('.mahsool1axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                 $('.xxxx').hide(); 
+                x++;
+                } ;
+            };
+          
+            function deleData() {
+$('.navbar').show();
+                $('.mahsool1axname').show();
+                $('.divi').remove();
+                  $('.xxxx').show(); 
+                x--;
+            } 
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+      function mahsool2() {
+                if(y === 0) {
+                    setTimeout(function(){
+                    $.get("page2.php",(data,status) => {
+                        $('.whatAppendMe2').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool2axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                y++
+                } 
+               
+            }
+
+      function mahsool3() {
+                if(a === 0) {
+                    setTimeout(function(){
+                    $.get("page3.php",(data,status) => {
+                        $('.whatAppendMe3').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool3axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                a++
+                } 
+               
+            }
+
+
+      function mahsool4() {
+                if(b === 0) {
+                    setTimeout(function(){
+                    $.get("page4.php",(data,status) => {
+                        $('.whatAppendMe4').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool4axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                b++
+                } 
+               
+            }
+
+
+      function mahsool5() {
+                if(c === 0) {
+                    setTimeout(function(){
+                    $.get("page5.php",(data,status) => {
+                        $('.whatAppendMe5').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool5axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                c++
+                } 
+               
+            }
+
+
+      function mahsool6() {
+                if(d === 0) {
+                    setTimeout(function(){
+                    $.get("page6.php",(data,status) => {
+                        $('.whatAppendMe6').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool6axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                d++
+                } 
+               
+            }
+
+
+      function mahsool7() {
+                if(e === 0) {
+                    setTimeout(function(){
+                    $.get("page7.php",(data,status) => {
+                        $('.whatAppendMe7').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool7axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                e++
+                } 
+               
+            }
+
+    //   function mahsool8() {
+    //             if(f === 0) {
+    //                 setTimeout(function(){
+    //                 $.get("product.html",(data,status) => {
+    //                     $('.whatAppendMe8').append(div);
+    //                     $('.divi').append(data);
+    //                     $('.mahsool8axname').hide();
+    //                 })
+    //             },1000);
+    //             $('.xxxx').hide(); 
+    //             f++
+    //             } 
+               
+    //         }
+
+
+      function mahsool9() {
+                if(g === 0) {
+                    setTimeout(function(){
+                    $.get("page8.php",(data,status) => {
+                        $('.whatAppendMe9').append(div);
+                        $('.divi').append(data);
+                        $('.mahsool9axname').hide();$('.navbar').hide();
+                    })
+                },1000);
+                $('.xxxx').hide(); 
+                g++
+                } 
+               
+            }
+
+
+
+
+
+    
+    function deleData1() {
+        $('.navbar').show();
+        $('.mahsool2axname').show();
+        $('.divi').remove();
+        $('.xxxx').show(); 
+        y--;
+    }
+    function deleData2() {
+        $('.navbar').show();
+        $('.mahsool3axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        a--;
+    }
+ function deleData3() {
+     $('.navbar').show();
+     $('.mahsool4axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        b--;
+    }
+    function deleData4() {
+        $('.navbar').show();
+        $('.mahsool5axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        c--;
+    }function deleData5() {
+        $('.navbar').show();
+        $('.mahsool6axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        d--;
+    }function deleData6() {
+        $('.navbar').show();
+        $('.mahsool7axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        e--;
+    }function deleData7() {
+        $('.navbar').show();
+        $('.mahsool8axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        f--;
+    }function deleData8() {
+        $('.navbar').show();
+        $('.mahsool9axname').show();
+        $('.divi').remove();
+        $('.xxxx').show();
+        g--;
+    }
+           
+       
+
+ 
+
+
+
+
+var $pageTitles = {
+"/": {"pageTitle": "San Francisco Design Executive & Photographer" },
+    "/design": {"pageTitle": "Design Project Portfolio" },
+    "/photography": {"pageTitle": "Photography Project Portfolio" },
+    "/writing": {"pageTitle": "Writing & Publications" },
+    "/speaking": {"pageTitle": "Public Speaking & Coaching" },
+    "/about": {"pageTitle": "Biography" },
+    "/contact": {"pageTitle": "Get in Touch" },
+    "design/square": {"pageTitle": "Square Case Study: Designing an end-to-end payments experience" },
+    "design/bff": {"pageTitle": "BFF Case Study: Your best financial friend" },
+    "design/bulan": {"pageTitle": "Bulan Case Study: Modern engineering for modern art" },
+    "design/marker-app": {"pageTitle": "Marker Case Study: Instant location sharing for Android" },
+    "design/everdwell": {"pageTitle": "Everdwell Case Study: The easiest website builder for your home" },
+    "design/dolody": {"pageTitle": "Dolody Case Study: Next-gen publication for designers" },
+    "design/webdesigner-depot": {"pageTitle": "Web Designer Depot Case Study: Designing an editorial for designers" },
+    "design/teespring": {"pageTitle": "Teespring Case Study: Helping anyone create & sell the perfect shirt" },
+    "design/disqus-embed": {"pageTitle": "Disqus Case Study: Designing for billions of commenters" },
+    "design/bento": {"pageTitle": "Bento Case Study: Customized on-demand bento boxes" },
+    "design/instacart": {"pageTitle": "Instacart Case Study: Redesigning the digital shopping cart" },
+    "design/vida-mobile": {"pageTitle": "Vida Case Study: Designing a health coach in your pocket" },
+    "design/disqus-dashboard": {"pageTitle": "Disqus Dashboard Case Study: Designing the Disqus Dashboard" },
+    "design/celebration-cruises": {"pageTitle": "Celebration Cruises Case Study: Celebration Cruises Website Design" },
+        };
+        
+        
+        
+        
+        
+</script>
+<!--<script type="text/javascript" src="sortino.co/assets/js/highlight.pack.js"></script>-->
+<!--<script type="text/javascript" src="sortino.co/assets/js/crawler.js"></script>-->
+<!--<script type="text/javascript" src="sortino.co/assets/js/jquery.isInViewport.js"></script>-->
+<script type="text/javascript" src="sortino.co/assets/js/scripts.js"></script>
+<!--<script type="text/javascript" src="sortino.co/assets/js/jquery.spin.js"></script>-->
+<!--<script type="text/javascript" src="sortino.co/assets/js/jquery.glass.js"></script>-->
+</body>
+</html>

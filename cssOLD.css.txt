@@ -1,0 +1,269 @@
+    .xxxx{
+        display:block;
+        font-size:17px;
+    }
+    .container{
+        width: 100vw;
+        height: 500px;
+        background-color: #1e2023;
+        overflow-x:hidden;
+        display:flex;
+        justify-content:flex-start;
+         background:url(sortino.co/assets/img/home/raad.png);
+          background-size:contain;
+          background-repeat:no-repeat;
+          z-index:2000px;
+    
+      }
+    @media only screen and (max-width:800px) {
+        .xxxx{
+            font-size:10px;
+        }
+        .container{
+            background:#1e2023;
+        }
+    }
+    
+      .cb1{
+          background:url(sortino.co/assets/img/home/ladyAlone.png);
+          background-size:cover;
+          background-repeat:no-repeat;
+          width:700px;
+          height:400px;
+          z-index:1;
+          border:none !important;
+          transform:translate(100px,30px);
+          
+      }
+     
+     
+       @media only screen and (min-width:1800px) {
+        .container{
+            height:600px;
+        }
+      
+      .cb1{
+          background:url(sortino.co/assets/img/home/ladyAlone.png);
+          background-size:cover;
+          background-repeat:no-repeat;
+          width:700px;
+          height:500px;
+          z-index:1;
+          border:none !important;
+          transform:translate(140px,50px);
+          
+      }
+   
+    }
+      .box1g{
+          border-top:#383c43 1px solid;
+      }
+      @font-face {
+font-family: lalezar;
+src: url(sortino.co/assets/font/Lalezar-Regular.ttf);
+}
+
+* {
+font-family: 'lalezar', Fallback, sans-serif;
+}
+.menuItem{
+letter-spacing: 0 !important;
+font-size:25px !important;
+}
+.navbar{
+box-shadow: none !important;
+background-color:transparent !important;
+}
+.navbar a {
+    color:darkgray !important;
+  border-bottom:1px transparent solid !important
+}
+.navbar a:hover{
+    color:white !important;
+}
+@media only screen and (max-width : 600px) {
+    .container img{
+        transform:translate(-130px,50px);
+        width:600px;
+    }
+}
+.activee {
+  color: white;
+  text-decoration:none;
+  border-bottom:none;
+}
+.navAsly {
+  overflow: hidden;
+  direction: rtl;
+
+}
+a{
+    border-bottom:none;
+}
+
+.navAsly a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 26px;
+  border-bottom:none;
+}
+
+
+
+.navAsly .iconnav {
+  display: none;
+}
+
+.drapdawn {
+  float: left;
+  border-bottom:none;
+}
+.drapdawn i {
+    transform: rotate(90deg);
+}
+.drapdawn .drapbtnn {
+  font-size: 26px;    
+  border: none;
+  outline: none;
+  color: gray;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-bottom:none;
+}
+
+.drapdawn-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  border-bottom:none;
+  z-index: 1;
+  margin-top:60px;
+}
+
+.drapdawn-content a {
+  border-bottom:gray 1px solid;
+  float: none;
+  color: white;
+  background-color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size:17px;
+  text-align: center;
+}
+@media only screen and (min-width:2000px){
+    .navAsly a ,.drapdawn .drapbtnn{
+        font-size: 37px;
+    }
+    .drapdawn-content {
+
+  margin-top:80px;
+}
+
+    .drapdawn-content a{
+        font-size: 25px;
+    }
+}
+.navAsly a:hover, .drapdawn:hover .drapbtnn {
+
+  color: white;
+}
+
+.drapdawn-content a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.drapdawn:hover .drapdawn-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .navAsly a:not(:last-child), .drapdawn .drapbtnn {
+    display: none;
+  }
+  .navAsly a.iconnav {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navAsly.responsive {position: relative;}
+  .navAsly.responsive .iconnav {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navAsly.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navAsly.responsive .drapdawn {float: none;}
+  .navAsly.responsive .drapdawn-content {position: relative;}
+  .navAsly.responsive .drapdawn .drapbtnn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+body,html{
+            margin: 0;
+            padding: 0;
+        }
+        .responsiveMenu{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #FFD525;
+            color: black;
+            display: flex;
+            align-items: center;
+            
+        }
+        .resMENU{
+            margin: 0 auto;
+        }
+        .resMENU h1:hover{
+            color:white;
+            cursor: pointer;
+        }
+        .rescontent{
+            display: none;
+        }
+        .rescloze{
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+        @media only screen and (max-width:800px){
+            .container {
+                display:block;
+                overflow-x:hidden;
+               width:100vw;
+            }
+            .cb1 {
+               background:url(sortino.co/assets/img/home/ladyAlone.png);
+               background-repeat:no-repeat;
+               background-size:contain;
+               width:600px;
+               transform:translateX(-120px);
+                background-position:left center;
+            }
+            .ladyOlane{
+                display:block;
+            }
+        }
